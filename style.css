@@ -478,6 +478,64 @@ button{
 
 
 
+/*----------------Onglets---------------------*/
+
+.onglets{
+	width: 25%;
+}
+
+.contenus{
+	width: 70%;
+}
+
+.tabs{
+	display: flex;
+	gap: 25px;
+	margin-top: 50px;
+}
+
+.onglets .list{
+	padding: 30px;
+	/*border-right: 1px solid black;*/
+	list-style: none;
+	text-align: center;
+}
+
+.onglets .list .tab{
+	border: 1px solid black;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #4bc2bc;
+	cursor: pointer;
+	color: white;
+	font-size: 19px;
+	font-family: cambria;
+}
+
+.list .tab:hover{
+	background-color: rgb(3,134,151);
+}
+
+.list .tab.actif{
+	background-color: rgb(3,115,129);
+	box-shadow: 0 0 5px;
+	cursor: default;
+}
+
+.tabs .contenus{
+	/*border: 1px solid black;*/
+	padding: 10px;
+}
+
+.tabs .contenu{
+	display: none;
+}
+
+.tabs .contenu.show{
+	display: initial;
+}
+
+
 
 
 
